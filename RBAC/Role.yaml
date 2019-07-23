@@ -5,5 +5,5 @@ metadata:
   name: pod-and-pod-logs-reader
 rules:
 - apiGroups: [""]
-  resources: ["pods", "pods/log"]
+  resources: ["pods", "pods/log", "deployments"]
   verbs: ["get", "list", "delete"]
